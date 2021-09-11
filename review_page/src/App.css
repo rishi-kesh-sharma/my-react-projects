@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container h1{
+  font-weight: bold;
+}
+.container{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  /* position:absolute;
+  top: 50%;
+  left:50%;
+  transform: translate((-50%,-50%)); */
+}
+.card-container{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  height:auto;
+  width: 500px;
+  margin-bottom: 20px;
+  margin-top: 10px; 
+  padding-bottom: 20px;
+  box-shadow: 5px 5px 10px rgb(128, 125, 125);
+
+}
+.image-container{
+  height: 150px;
+  width: 150px;
+  background-color: lightblue;
+}
+.image{
+  height: 100%;
+  width: 100%;
+  transform: translate(10px,10px);
+}
+.name,.job{
+  font-weight: bold;
+}
+.text{
+  line-height: 1em;
+}
+.btn-container span{ 
+  font-size: 2em;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+}

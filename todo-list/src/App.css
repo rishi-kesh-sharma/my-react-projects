@@ -1,0 +1,27 @@
+
+.inner-container{ 
+  border:1px solid black;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  margin: auto;
+  
+}
+input[type="text"]
+{
+  display: inline-block;
+  height: 2.2em;
+  margin-top: 20px;
+}
+ul{
+  width: 100%;
+  list-style: none;
+}
+li{ 
+
+  border-bottom: 1px solid black;
+
+}
