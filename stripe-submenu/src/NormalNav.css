@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.normal-nav-container{
+    width: 500px;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    justify-content: space-between;
+
+    
+}
+.normal-nav-container div p{
+    padding:0 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}

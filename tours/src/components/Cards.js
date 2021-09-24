@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card"
 import "../App.css"
 
-const Cards=(props)=>{ 
+    const Cards=(props)=>{ 
     
     return(
         <div className="main-container">
@@ -14,8 +14,9 @@ const Cards=(props)=>{
         </div>
       
     )
-}
-export default Cards;
+};
+export default Card;
+
 
 
  
