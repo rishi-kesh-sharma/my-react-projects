@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  flex-grow: 100%;
+  background-color: rgb(185, 180, 180);
+}
+.board{ 
+ width: 400px;
+ height: 80%;
+  padding:30px;
+}
+.display{
+  height: 80%;
+ width: 400px;
+padding: 30px;
+}
+.board textarea{
+  height: 100%;
+  width: 100%;
+  resize: none;
+  padding: 30px;
+}
+.display.markdown{
+  font-size: 2em;
+  font-weight: 800;
+}
