@@ -1,0 +1,22 @@
+*{margin: 0%;padding: 0;box-sizing: border-box;}
+
+.cart{
+    width: 100%;
+    max-width: 600px;
+    padding-top: 60px;
+    margin: auto;
+    height: auto;
+}
+.cart-items-container{
+    margin-top: 40px;
+    width: 100%;
+    max-width: 600px;
+    height: auto; 
+    
+    border-bottom: 2px solid red;
+    /* margin: 40px; */
+}
+.cart-items-container h1{
+   margin-top: 100px;
+   text-align: center;
+}

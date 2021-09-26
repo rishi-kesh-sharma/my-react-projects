@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.total-container{
+    display: flex;
+    justify-content: center;
+
+
+}
+.total-container p{
+    color: red;
+ margin-left:20px ;
+}
+.total-container p:last-child{
+    color: black;
+}
